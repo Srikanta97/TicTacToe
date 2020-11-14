@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(77, 61, 61) ;
+}
+.container{
+    background-color: gray ;
+    width: 60% ;
+    margin: auto ;
+}
+h4{
+    text-align: center ;
+    padding-top: 10px ;
+}
+.board{
+    width: 70% ;
+    margin: auto ;
+}
+.row{
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px ;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(77, 61, 61) ;
+    font-size: 38px ;
+}
+.turn{
+    text-align: center ;
+    padding: 10px ;
+    color: rgb(90, 74, 74) ;
+    font-weight: 800 ;
+}
